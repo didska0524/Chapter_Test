@@ -3,7 +3,7 @@ package Ch05;//import org.w3c.dom.ls.LSInput;
 //5번문제
 
 import java.util.*;
-interface StackInterface{
+interface StackInterface{   // 클래스가 구현해야 할 메소드들이 선언되는 인터페이스
     int length();   //스택에 들어 있는 문자열 개수 래턴
     String pop();   //스택의 톱에 있는 문자열 팝
     boolean push(String ob);    //스택의 톱에 문자열 ob 푸시 삽입
