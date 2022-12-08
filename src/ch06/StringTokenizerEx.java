@@ -1,6 +1,7 @@
 package ch06;
 import java.util.*;
-
+// 201804077최환규
+// 2번문제
 public class StringTokenizerEx {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
