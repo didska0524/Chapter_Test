@@ -10,7 +10,7 @@ public class Number4 {
         String a = scanner.nextLine();  // 줄바꿈전까지 입력된 문장 받기
         int sum = 0;
         StringTokenizer st = new StringTokenizer(a, "+");
-        // String 으로 스트링 토크나이저 생성
+        // String 으로 스트링 토크나이저 생성 구분 문자는 '+'로 지정
 
         while(st.hasMoreTokens()){
             String token = st.nextToken();  // 다음 토큰을 리턴
